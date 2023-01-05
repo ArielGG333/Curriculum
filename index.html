@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/cv.png.jpg" type="image/png" sizes="16x16">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <title>Ariel Gomez</title>
+  </head>
+  <body>
+                            <!--
+                              Contenedor Principal
+                            -->
+    <div id="principal">
+      <header>
+
+                            <!--
+                              Contenedor Info Personal
+                            -->
+        <div class="containerInfo">
+          <img id="foto" src="images/foto.jpg" alt="foto personal" />
+  
+          <div>
+  
+            <div id="infoNombre">
+              Hola mi nombre es
+              <h3>Ariel Gerardo Gomez</h3>
+            </div>
+  
+            <div id="infoEmail">
+              Mis direcciones de correo electronico son:
+              <h4>arielggomez333@hotmail.com</h4>
+              <h4>arielggomez333@gmail.com</h4>
+              <h4>arielgerardo.gomez@alu.frt.utn.edu.ar</h4>
+            </div>
+  
+            <div id="infoFechaNac">
+              Mi fecha de nacimiento es:
+              <h4>14/08/1985</h4>
+            </div>
+  
+            <div id="infoDomicilio">
+              Mi Domicilio es:
+              <h4>Bat. de Ayacucho 4600</h4>
+              <h4>San M. de Tucumán - Tucumán - Argentina</h4>
+            </div>
+  
+            <div id="infoTelefono">
+              Mi Telefono Celular es:
+              <h4>(381) 6787729</h4>
+            </div>
+  
+  
+          </div>
+
+  
+                            <!--
+                              Contenedor Iconos Info (Desktop)
+                            -->
+          <nav class="nav-main">
+            <ul>
+              <li>
+                <a href="#Nombre" id="nombre" onmouseover="mostrarNombre()" 
+                onmouseout="ocultarNombre()"><i class="fas fa-user-tie"></i></a>              
+              </li>
+  
+              <li>
+                <a href="#Email" onmouseover="mostrarEmail()" 
+                onmouseout="ocultarEmail()"><i class="fas fa-envelope"></i></a>              
+              </li>
+  
+              <li>
+                <a href="#FechaNac" onmouseover="mostrarFechaNac()" 
+                onmouseout="ocultarFechaNac()"><i class="far fa-calendar-alt"></i></a>              
+              </li>
+  
+              <li>
+                <a href="#Domicilio" onmouseover="mostrarDomicilio()" 
+                onmouseout="ocultarDomicilio()"><i class="fas fa-map-marked-alt"></i></a>              
+              </li>
+  
+              <li>
+                <a href="#Telefono" onmouseover="mostrarTelefono()" 
+                onmouseout="ocultarTelefono()"><i class="fab fa-whatsapp"></i></i></a>              
+              </li>
+            </ul>
+          </nav>
+  
+                            <!--
+                              Contenedor Iconos Info (Movile)
+                            -->
+          <nav class="nav-main-movile">
+            <ul>
+              <li>
+                <a href="#Nombre" onclick="clickMostrarNombre()" 
+                ><i class="fas fa-user-tie"></i></a>              
+              </li>
+  
+              <li>
+                <a href="#Email" onclick="clickMostrarEmail()" 
+                ><i class="fas fa-envelope"></i></a>              
+              </li>
+  
+              <li>
+                <a href="#FechaNac" onclick="clickMostrarFechaNac()" 
+                ><i class="far fa-calendar-alt"></i></a>              
+              </li>
+  
+              <li>
+                <a href="#Domicilio" onclick="clickMostrarDomicilio()" 
+                ><i class="fas fa-map-marked-alt"></i></a>              
+              </li>
+  
+              <li>
+                <a href="#Telefono" onclick="clickMostrarTelefono()" 
+                ><i class="fab fa-whatsapp"></i></i></a>              
+              </li>
+            </ul>
+          </nav>
+  
+        </div>
+      </header>
+      <hr />
+      <main>
+
+                            <!--
+                              Contenedor Info Academica
+                            -->
+        <div class="formacion">
+          <h2>Formación y estudios</h2>
+          <p>
+            Secundario Completo <br />
+            Colegio Nacional “Bartolomé Mitre” <br />
+            Titulación: Bachiller
+          </p>
+  
+          <p>
+            Terciario Incompleto <br />
+            Escuela Técnica N°3 de Vialidad Nac “Manuel Belgrano” (3er Año) <br />
+            Titulación: Tecnico Superior en obras viales
+          </p>
+  
+          <p>
+            Curso de Arduino <br />
+            certificado por la U.T.N FRT
+          </p>
+  
+          <p>
+            Curso de Operación y Programación de Robots Industriales <br />
+            Certificado por (CIVET) Centro de Innovacion Virtual para la Educacion
+            y el Trabajo
+          </p>
+  
+          <p>
+            Curso Primeros pasos del Desarrollo FrontEnd <br />
+            certificado por Academy (Argentina Programa 4.0)
+          </p>
+  
+          <p>
+            Tecnicatura Universitaria en Programación <br />
+            Universidad Tecnológica Nacional - FRT (Cursando Último Año) <br />
+            Titulación: Programador Universitario
+          </p>
+        </div>
+  
+        <hr />
+        
+                            <!--
+                              Contenedor Info Complementaria
+                            -->
+        <div class="complementarios">
+          <h2>Datos Complementarios</h2>
+  
+          <p>
+            Idiomas: <br />
+            Ingles (Intermedio)
+          </p>
+  
+          <p class="conocimientos">
+              
+             <div class="grid">
+  
+               <div class="itemsWeb">
+                 <p>Conocimientos de Desarrollo web:</p> 
+                 <li>HTML5 (Intermedio)</li>
+                 <li>CSS3 (Intermedio)</li>
+                 <li>JavaScript (Intermedio)</li>
+                 <li>React (Basico)</li>
+                 <li>TypeScript (Basico)</li>
+                 <li>Angular (Basico)</li>                
+                </div>
+                
+                
+                <div class="itemsDesktop">
+                  <p>Conocimientos de Desarrollo Desktop:</p> 
+                  <li>C# (Intermedio)</li>
+                  <li>Java (Basico)</li>
+                  <li>NodeJs (Basico)</li>
+                  <li>SQL Server (Intermedio)</li>
+                  <li>MySql (Basico)</li>
+                  <li>Genexus (Intermedio)</li>
+                </div>
+              
+                
+                <div class="itemsInformaticos">            
+                <p>Otros Conocimientos Informáticos:</p> 
+                <li>Word</li>
+                <li>Exel</li>
+                <li>Photoshop</li>
+                <li>Autocad</li>
+                <li>Paint</li>
+                <li>Y otros programas de diseño</li>            
+            </div>
+          </div>
+            </p>
+            <br>          
+          </div>
+          <hr>
+
+                            <!--
+                              Contenedor Info Final
+                            -->
+          <div class="final">
+            <p>Carnet de Conducir, Vehiculo propio, Disponibilidad horaria</p>
+            
+            <p>Todo lo expuesto anteriormente podrá ser acreditado, en caso de ser solicitado</p>
+          </div>
+  
+                            <!--
+                              Contenedor Botones Secc. Principal
+                            -->
+          <div id="botones">
+            <button type="button" onclick="window.open('CV Ariel Gomez.pdf');">Descargar CV.pdf</button>
+            <button type="button" onclick="contactarme()"  id="btnContactarme" >Contactarme</button>
+          </div>
+  
+      </main>
+      
+    </div>
+    
+    <!--
+      Contenedor Secundario (Modal Contacto)
+    -->
+    <div id="modalContacto">
+      <form action="https://formsubmit.co/arielggomez333@hotmail.com" method="POST" />
+      <div class="modalItem">
+        <label for="suNombre">Ingrese su Nombre</label><br>
+        <input name="Nombre" type="text" id="suNombre" placeholder="Nombre y Apellido" required>
+      </div>
+
+      <div class="modalItem">
+        <label for="suEmail">Ingrese su Correo Electronico</label><br>
+        <input name="Email" type="email" id="suEmail" placeholder="correo@ejemplo.com" required>
+      </div>
+
+      <div class="modalItem">
+        <label for="asunto">Asunto</label><br>
+        <input name="Asunto" type="text" id="asunto" placeholder="Asunto del comunicado" required>
+      </div>
+
+      <div></div>
+
+      <div class="modalItem">
+        <label for="mensaje">mensaje</label><br>
+        <textarea name="Mensaje" id="mensaje" cols="100" rows="10" placeholder="Escriba aqui su mensaje" required></textarea>
+      </div>
+
+                            <!--
+                              Contenedor Botones Secc. Contacto
+                            -->
+      <div class="modalBotones">
+        <button type="submit" value="Enviar">Enviar</button>
+        <button onclick="volver()">Volver</button>
+
+      </div>
+     
+                            <!--
+                              Inputs  que redireccionan la navegacíon hacia nuetra pagina despues del envio del formulario 
+                              atravez de la Api empleada y que impide la carga del captcha en dicho envio, respectivamente
+                          
+                            -->
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/">     
+      <input type="hidden" name="_captcha" value="false">
+    </div>
+
+    </form>
+      
+    
+                            <!--
+                              Contenedor Footer
+                            -->
+    <footer class="footer">
+      <h3>Proyecto Final CV - Ariel G. Gomez <i class="far fa-copyright"></i></h3>
+  </footer>
+
+  <script src="app.js"></script>
+  </body>
+</html>
